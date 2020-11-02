@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="codes_learn_cpp" targetName="codes_learn_cpp" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cec1d651-e102-4421-9332-ba74b2ccbc25" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1jfRBEbWHbA68ZR50vyIDds5gcU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
+      <recent name="$PROJECT_DIR$/library" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/linkage" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="codes_learn_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codes_learn_cpp" TARGET_NAME="codes_learn_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codes_learn_cpp" RUN_TARGET_NAME="codes_learn_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cec1d651-e102-4421-9332-ba74b2ccbc25" name="Default Changelist" comment="" />
+      <created>1604193021955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604193021955</updated>
+      <workItem from="1604193023564" duration="11013000" />
+      <workItem from="1604322142902" duration="6824000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604324587962">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604324587962" />
+    <state x="386" y="166" width="617" height="393" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604329218859">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="386" y="166" width="617" height="393" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604329218859" />
+    <state x="416" y="111" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604328238544">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="416" y="111" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604328238544" />
+    <state x="465" y="122" width="424" height="483" key="FileChooserDialogImpl" timestamp="1604324450905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="465" y="122" width="424" height="483" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604324450905" />
+    <state width="1318" height="159" key="GridCell.Tab.0.bottom" timestamp="1604329633196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1318" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604329633196" />
+    <state width="1318" height="159" key="GridCell.Tab.0.center" timestamp="1604329633196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1318" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604329633196" />
+    <state width="1318" height="159" key="GridCell.Tab.0.left" timestamp="1604329633195">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1318" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604329633195" />
+    <state width="1318" height="159" key="GridCell.Tab.0.right" timestamp="1604329633196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1318" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604329633196" />
+    <state x="179" y="0" key="SettingsEditor" timestamp="1604325931732">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="179" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604325931732" />
+    <state x="359" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1604322144436">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="359" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1604322144436" />
+  </component>
+</project>
