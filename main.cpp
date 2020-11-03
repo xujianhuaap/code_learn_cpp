@@ -23,6 +23,9 @@ double *nullPtrAfterCpp11{nullptr};//空指针C++11之后才支持
 extern void printPointerInfo(double *dPtr);
 extern void printArrayInfo(double array[]);
 void main_pointer();
+
+void main_reference();
+
 void main_pointer() {
     printPointerInfo(nullPtrWithInt);
     printPointerInfo(nullPtrWithMacro);
@@ -32,10 +35,17 @@ void main_pointer() {
 }
 //=====================　pointer end ====================================
 
+//=====================　reference start  ====================================
+extern void printReferenceInfo();
+void main_reference() {
+    printReferenceInfo();
+}
+//=====================　reference end ====================================
 
 int main() {
-    main_pointer();
+    main_reference();
     return 0;
 }
+
 
 

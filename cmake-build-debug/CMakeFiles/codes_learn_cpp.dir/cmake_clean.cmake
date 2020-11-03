@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/codes_learn_cpp.dir/main.cpp.o"
   "CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.o"
   "CMakeFiles/codes_learn_cpp.dir/src/pointer/Pointer.cpp.o"
+  "CMakeFiles/codes_learn_cpp.dir/src/reference/Reference.cpp.o"
   "codes_learn_cpp"
   "codes_learn_cpp.pdb"
 )

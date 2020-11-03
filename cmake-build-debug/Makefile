@@ -204,6 +204,33 @@ src/pointer/Pointer.cpp.s:
 	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/src/pointer/Pointer.cpp.s
 .PHONY : src/pointer/Pointer.cpp.s
 
+src/reference/Reference.o: src/reference/Reference.cpp.o
+
+.PHONY : src/reference/Reference.o
+
+# target to build an object file
+src/reference/Reference.cpp.o:
+	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/src/reference/Reference.cpp.o
+.PHONY : src/reference/Reference.cpp.o
+
+src/reference/Reference.i: src/reference/Reference.cpp.i
+
+.PHONY : src/reference/Reference.i
+
+# target to preprocess a source file
+src/reference/Reference.cpp.i:
+	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/src/reference/Reference.cpp.i
+.PHONY : src/reference/Reference.cpp.i
+
+src/reference/Reference.s: src/reference/Reference.cpp.s
+
+.PHONY : src/reference/Reference.s
+
+# target to generate assembly for a file
+src/reference/Reference.cpp.s:
+	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/src/reference/Reference.cpp.s
+.PHONY : src/reference/Reference.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... src/pointer/Pointer.o"
 	@echo "... src/pointer/Pointer.i"
 	@echo "... src/pointer/Pointer.s"
+	@echo "... src/reference/Reference.o"
+	@echo "... src/reference/Reference.i"
+	@echo "... src/reference/Reference.s"
 .PHONY : help
 
 
