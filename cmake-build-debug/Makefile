@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/xujianhua/Documents/soft/clion-2019.3.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/xu/Documents/soft/clion-2019.3.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/xujianhua/Documents/soft/clion-2019.3.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/xu/Documents/soft/clion-2019.3.1/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xujianhua/CLionProjects/codes_learn_cpp
+CMAKE_SOURCE_DIR = /home/xu/Documents/codes/codes_c/code_learn_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-deb
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/xujianhua/Documents/soft/clion-2019.3.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/xu/Documents/soft/clion-2019.3.1/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/xujianhua/Documents/soft/clion-2019.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/xu/Documents/soft/clion-2019.3.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug/CMakeFiles /home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug/CMakeFiles /home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,32 +150,32 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/linkage/ExternalLinkage.o: src/linkage/ExternalLinkage.cpp.o
+src/linkage/Linkage.o: src/linkage/Linkage.cpp.o
 
-.PHONY : src/linkage/ExternalLinkage.o
+.PHONY : src/linkage/Linkage.o
 
 # target to build an object file
-src/linkage/ExternalLinkage.cpp.o:
-	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/src/linkage/ExternalLinkage.cpp.o
-.PHONY : src/linkage/ExternalLinkage.cpp.o
+src/linkage/Linkage.cpp.o:
+	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.o
+.PHONY : src/linkage/Linkage.cpp.o
 
-src/linkage/ExternalLinkage.i: src/linkage/ExternalLinkage.cpp.i
+src/linkage/Linkage.i: src/linkage/Linkage.cpp.i
 
-.PHONY : src/linkage/ExternalLinkage.i
+.PHONY : src/linkage/Linkage.i
 
 # target to preprocess a source file
-src/linkage/ExternalLinkage.cpp.i:
-	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/src/linkage/ExternalLinkage.cpp.i
-.PHONY : src/linkage/ExternalLinkage.cpp.i
+src/linkage/Linkage.cpp.i:
+	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.i
+.PHONY : src/linkage/Linkage.cpp.i
 
-src/linkage/ExternalLinkage.s: src/linkage/ExternalLinkage.cpp.s
+src/linkage/Linkage.s: src/linkage/Linkage.cpp.s
 
-.PHONY : src/linkage/ExternalLinkage.s
+.PHONY : src/linkage/Linkage.s
 
 # target to generate assembly for a file
-src/linkage/ExternalLinkage.cpp.s:
-	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/src/linkage/ExternalLinkage.cpp.s
-.PHONY : src/linkage/ExternalLinkage.cpp.s
+src/linkage/Linkage.cpp.s:
+	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.s
+.PHONY : src/linkage/Linkage.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/linkage/ExternalLinkage.o"
-	@echo "... src/linkage/ExternalLinkage.i"
-	@echo "... src/linkage/ExternalLinkage.s"
+	@echo "... src/linkage/Linkage.o"
+	@echo "... src/linkage/Linkage.i"
+	@echo "... src/linkage/Linkage.s"
 .PHONY : help
 
 

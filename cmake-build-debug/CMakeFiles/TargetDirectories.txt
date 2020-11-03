@@ -1,3 +1,3 @@
-/home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir
-/home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir
+/home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir

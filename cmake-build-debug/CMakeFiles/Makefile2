@@ -35,19 +35,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/xujianhua/Documents/soft/clion-2019.3.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/xu/Documents/soft/clion-2019.3.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/xujianhua/Documents/soft/clion-2019.3.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/xu/Documents/soft/clion-2019.3.1/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xujianhua/CLionProjects/codes_learn_cpp
+CMAKE_SOURCE_DIR = /home/xu/Documents/codes/codes_c/code_learn_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ preinstall:
 CMakeFiles/codes_learn_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target codes_learn_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target codes_learn_cpp"
 .PHONY : CMakeFiles/codes_learn_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/codes_learn_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/codes_learn_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/codes_learn_cpp.dir/rule
 
 # Convenience name for target.

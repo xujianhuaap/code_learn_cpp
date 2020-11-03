@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/xujianhua/Documents/soft/clion-2019.3.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/xu/Documents/soft/clion-2019.3.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/xujianhua/Documents/soft/clion-2019.3.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/xu/Documents/soft/clion-2019.3.1/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xujianhua/CLionProjects/codes_learn_cpp
+CMAKE_SOURCE_DIR = /home/xu/Documents/codes/codes_c/code_learn_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/codes_learn_cpp.dir/depend.make
@@ -59,43 +59,43 @@ include CMakeFiles/codes_learn_cpp.dir/flags.make
 
 CMakeFiles/codes_learn_cpp.dir/main.cpp.o: CMakeFiles/codes_learn_cpp.dir/flags.make
 CMakeFiles/codes_learn_cpp.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/codes_learn_cpp.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/codes_learn_cpp.dir/main.cpp.o -c /home/xujianhua/CLionProjects/codes_learn_cpp/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/codes_learn_cpp.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/codes_learn_cpp.dir/main.cpp.o -c /home/xu/Documents/codes/codes_c/code_learn_cpp/main.cpp
 
 CMakeFiles/codes_learn_cpp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/codes_learn_cpp.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xujianhua/CLionProjects/codes_learn_cpp/main.cpp > CMakeFiles/codes_learn_cpp.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xu/Documents/codes/codes_c/code_learn_cpp/main.cpp > CMakeFiles/codes_learn_cpp.dir/main.cpp.i
 
 CMakeFiles/codes_learn_cpp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/codes_learn_cpp.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xujianhua/CLionProjects/codes_learn_cpp/main.cpp -o CMakeFiles/codes_learn_cpp.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xu/Documents/codes/codes_c/code_learn_cpp/main.cpp -o CMakeFiles/codes_learn_cpp.dir/main.cpp.s
 
-CMakeFiles/codes_learn_cpp.dir/src/linkage/ExternalLinkage.cpp.o: CMakeFiles/codes_learn_cpp.dir/flags.make
-CMakeFiles/codes_learn_cpp.dir/src/linkage/ExternalLinkage.cpp.o: ../src/linkage/ExternalLinkage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/codes_learn_cpp.dir/src/linkage/ExternalLinkage.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/codes_learn_cpp.dir/src/linkage/ExternalLinkage.cpp.o -c /home/xujianhua/CLionProjects/codes_learn_cpp/src/linkage/ExternalLinkage.cpp
+CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.o: CMakeFiles/codes_learn_cpp.dir/flags.make
+CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.o: ../src/linkage/Linkage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.o -c /home/xu/Documents/codes/codes_c/code_learn_cpp/src/linkage/Linkage.cpp
 
-CMakeFiles/codes_learn_cpp.dir/src/linkage/ExternalLinkage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/codes_learn_cpp.dir/src/linkage/ExternalLinkage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xujianhua/CLionProjects/codes_learn_cpp/src/linkage/ExternalLinkage.cpp > CMakeFiles/codes_learn_cpp.dir/src/linkage/ExternalLinkage.cpp.i
+CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xu/Documents/codes/codes_c/code_learn_cpp/src/linkage/Linkage.cpp > CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.i
 
-CMakeFiles/codes_learn_cpp.dir/src/linkage/ExternalLinkage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/codes_learn_cpp.dir/src/linkage/ExternalLinkage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xujianhua/CLionProjects/codes_learn_cpp/src/linkage/ExternalLinkage.cpp -o CMakeFiles/codes_learn_cpp.dir/src/linkage/ExternalLinkage.cpp.s
+CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xu/Documents/codes/codes_c/code_learn_cpp/src/linkage/Linkage.cpp -o CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.s
 
 # Object files for target codes_learn_cpp
 codes_learn_cpp_OBJECTS = \
 "CMakeFiles/codes_learn_cpp.dir/main.cpp.o" \
-"CMakeFiles/codes_learn_cpp.dir/src/linkage/ExternalLinkage.cpp.o"
+"CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.o"
 
 # External object files for target codes_learn_cpp
 codes_learn_cpp_EXTERNAL_OBJECTS =
 
 codes_learn_cpp: CMakeFiles/codes_learn_cpp.dir/main.cpp.o
-codes_learn_cpp: CMakeFiles/codes_learn_cpp.dir/src/linkage/ExternalLinkage.cpp.o
+codes_learn_cpp: CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.o
 codes_learn_cpp: CMakeFiles/codes_learn_cpp.dir/build.make
 codes_learn_cpp: CMakeFiles/codes_learn_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable codes_learn_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable codes_learn_cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/codes_learn_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/codes_learn_cpp.dir/clean:
 .PHONY : CMakeFiles/codes_learn_cpp.dir/clean
 
 CMakeFiles/codes_learn_cpp.dir/depend:
-	cd /home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xujianhua/CLionProjects/codes_learn_cpp /home/xujianhua/CLionProjects/codes_learn_cpp /home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug /home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug /home/xujianhua/CLionProjects/codes_learn_cpp/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xu/Documents/codes/codes_c/code_learn_cpp /home/xu/Documents/codes/codes_c/code_learn_cpp /home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug /home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug /home/xu/Documents/codes/codes_c/code_learn_cpp/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/codes_learn_cpp.dir/depend
 
