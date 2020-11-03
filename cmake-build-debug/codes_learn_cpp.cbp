@@ -90,6 +90,9 @@
 		<Unit filename="/home/xu/Documents/codes/codes_c/code_learn_cpp/src/linkage/Linkage.cpp">
 			<Option target="codes_learn_cpp"/>
 		</Unit>
+		<Unit filename="/home/xu/Documents/codes/codes_c/code_learn_cpp/src/pointer/Pointer.cpp">
+			<Option target="codes_learn_cpp"/>
+		</Unit>
 		<Unit filename="/home/xu/Documents/codes/codes_c/code_learn_cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

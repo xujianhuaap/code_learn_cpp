@@ -177,6 +177,33 @@ src/linkage/Linkage.cpp.s:
 	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.s
 .PHONY : src/linkage/Linkage.cpp.s
 
+src/pointer/Pointer.o: src/pointer/Pointer.cpp.o
+
+.PHONY : src/pointer/Pointer.o
+
+# target to build an object file
+src/pointer/Pointer.cpp.o:
+	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/src/pointer/Pointer.cpp.o
+.PHONY : src/pointer/Pointer.cpp.o
+
+src/pointer/Pointer.i: src/pointer/Pointer.cpp.i
+
+.PHONY : src/pointer/Pointer.i
+
+# target to preprocess a source file
+src/pointer/Pointer.cpp.i:
+	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/src/pointer/Pointer.cpp.i
+.PHONY : src/pointer/Pointer.cpp.i
+
+src/pointer/Pointer.s: src/pointer/Pointer.cpp.s
+
+.PHONY : src/pointer/Pointer.s
+
+# target to generate assembly for a file
+src/pointer/Pointer.cpp.s:
+	$(MAKE) -f CMakeFiles/codes_learn_cpp.dir/build.make CMakeFiles/codes_learn_cpp.dir/src/pointer/Pointer.cpp.s
+.PHONY : src/pointer/Pointer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... src/linkage/Linkage.o"
 	@echo "... src/linkage/Linkage.i"
 	@echo "... src/linkage/Linkage.s"
+	@echo "... src/pointer/Pointer.o"
+	@echo "... src/pointer/Pointer.i"
+	@echo "... src/pointer/Pointer.s"
 .PHONY : help
 
 

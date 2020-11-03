@@ -5,3 +5,5 @@ CMakeFiles/codes_learn_cpp.dir/main.cpp.o: ../main.cpp
 
 CMakeFiles/codes_learn_cpp.dir/src/linkage/Linkage.cpp.o: ../src/linkage/Linkage.cpp
 
+CMakeFiles/codes_learn_cpp.dir/src/pointer/Pointer.cpp.o: ../src/pointer/Pointer.cpp
+

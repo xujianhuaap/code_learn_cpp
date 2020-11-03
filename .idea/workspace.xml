@@ -11,7 +11,28 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cec1d651-e102-4421-9332-ba74b2ccbc25" name="Default Changelist" comment="" />
+    <list default="true" id="cec1d651-e102-4421-9332-ba74b2ccbc25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pointer/Pointer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codes_learn_cpp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes_learn_cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes_learn_cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes_learn_cpp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes_learn_cpp.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +42,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jfRBEbWHbA68ZR50vyIDds5gcU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,8 +53,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
@@ -51,6 +76,18 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -63,6 +100,7 @@
       <updated>1604193021955</updated>
       <workItem from="1604193023564" duration="11013000" />
       <workItem from="1604322142902" duration="6824000" />
+      <workItem from="1604366211148" duration="11290000" />
     </task>
     <servers />
   </component>
@@ -86,22 +124,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="465" y="122" width="424" height="483" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604324450905" />
-    <state width="1318" height="159" key="GridCell.Tab.0.bottom" timestamp="1604329633196">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1846" height="244" key="GridCell.Tab.0.bottom" timestamp="1604390108959">
+      <screen x="0" y="0" width="1920" height="1053" />
     </state>
     <state width="1318" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604329633196" />
-    <state width="1318" height="159" key="GridCell.Tab.0.center" timestamp="1604329633196">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1846" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1053@0.0.1920.1053" timestamp="1604390108959" />
+    <state width="1846" height="244" key="GridCell.Tab.0.center" timestamp="1604390108958">
+      <screen x="0" y="0" width="1920" height="1053" />
     </state>
     <state width="1318" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604329633196" />
-    <state width="1318" height="159" key="GridCell.Tab.0.left" timestamp="1604329633195">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1846" height="244" key="GridCell.Tab.0.center/0.0.1920.1053@0.0.1920.1053" timestamp="1604390108958" />
+    <state width="1846" height="244" key="GridCell.Tab.0.left" timestamp="1604390108957">
+      <screen x="0" y="0" width="1920" height="1053" />
     </state>
     <state width="1318" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604329633195" />
-    <state width="1318" height="159" key="GridCell.Tab.0.right" timestamp="1604329633196">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1846" height="244" key="GridCell.Tab.0.left/0.0.1920.1053@0.0.1920.1053" timestamp="1604390108957" />
+    <state width="1846" height="244" key="GridCell.Tab.0.right" timestamp="1604390108959">
+      <screen x="0" y="0" width="1920" height="1053" />
     </state>
     <state width="1318" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604329633196" />
+    <state width="1846" height="244" key="GridCell.Tab.0.right/0.0.1920.1053@0.0.1920.1053" timestamp="1604390108959" />
+    <state width="1846" height="314" key="GridCell.Tab.1.bottom" timestamp="1604373266367">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1846" height="314" key="GridCell.Tab.1.bottom/0.0.1920.1053@0.0.1920.1053" timestamp="1604373266367" />
+    <state width="1846" height="314" key="GridCell.Tab.1.center" timestamp="1604373266366">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1846" height="314" key="GridCell.Tab.1.center/0.0.1920.1053@0.0.1920.1053" timestamp="1604373266366" />
+    <state width="1846" height="314" key="GridCell.Tab.1.left" timestamp="1604373266366">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1846" height="314" key="GridCell.Tab.1.left/0.0.1920.1053@0.0.1920.1053" timestamp="1604373266366" />
+    <state width="1846" height="314" key="GridCell.Tab.1.right" timestamp="1604373266367">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1846" height="314" key="GridCell.Tab.1.right/0.0.1920.1053@0.0.1920.1053" timestamp="1604373266367" />
     <state x="179" y="0" key="SettingsEditor" timestamp="1604325931732">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -110,5 +168,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="359" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1604322144436" />
+    <state x="642" y="89" width="628" height="883" key="refactoring.ChangeSignatureDialog" timestamp="1604372840298">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="642" y="89" width="628" height="883" key="refactoring.ChangeSignatureDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1604372840298" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/pointer/Pointer.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
