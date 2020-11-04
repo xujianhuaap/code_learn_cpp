@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "src/object/Object.h"
 //=====================　Linkage start ====================================
 //一个方法可以有多个声明的地方; 此处声明　可以链接到ExternalLinkage.cpp文件中对应的方法
 //ps: CMakeLists.txt 文件中必须通过add_executable(...)将ExternalLinkage.cpp 加入到编译文件的集合中
@@ -42,8 +42,15 @@ void main_reference() {
 }
 //=====================　reference end ====================================
 
+//=====================　object start ====================================
+
+//=====================　object end ====================================
+
 int main() {
-    main_reference();
+    Student student{(std::string) "Student"};
+    student.printInfo();
+    Teacher teacher{(std::string) "A"};
+    teacher.printTeacherInfo();
     return 0;
 }
 
