@@ -3,6 +3,6 @@
 //
 #include <iostream>
 #include "Teacher.h"
-void Teacher::printTeacherInfo(){
+void Teacher::printTeacherInfo() const {
     std::cout << "m_name " << m_name << ", m_rank " << m_rank << std::endl;
 }

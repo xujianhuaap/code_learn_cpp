@@ -49,7 +49,7 @@ void main_reference() {
 int main() {
     Student student{(std::string) "Student"};
     student.printInfo();
-    Teacher teacher{(std::string) "A"};
+    const Teacher teacher{(std::string) "A"};
     teacher.printTeacherInfo();
     return 0;
 }
