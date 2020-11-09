@@ -1,5 +1,7 @@
 #include <iostream>
 #include "src/object/Object.h"
+#include "src/object/Static.h"
+
 //=====================　Linkage start ====================================
 //一个方法可以有多个声明的地方; 此处声明　可以链接到ExternalLinkage.cpp文件中对应的方法
 //ps: CMakeLists.txt 文件中必须通过add_executable(...)将ExternalLinkage.cpp 加入到编译文件的集合中
@@ -51,10 +53,15 @@ void main_class() {
     student.printInfo();
     const Teacher teacher{(std::string) "A"};
     teacher.printTeacherInfo();
+    PrintTool<Student> tool ("Linux Printer",student);
+    tool.printInfo();
+    PrintTool<Student>::print();
+    print1(std::move("1234"));
 }
 //=====================　object end ====================================
 
 int main() {
+    main_class();
     return 0;
 }
 
