@@ -36,6 +36,8 @@ void main_pointer() {
 void printNonConstantReferenceInfo();
 void printConstantReferenceInfo();
 void main_reference();
+
+
 void main_reference() {
     printNonConstantReferenceInfo();
     printConstantReferenceInfo();
@@ -43,14 +45,17 @@ void main_reference() {
 //=====================　reference end ====================================
 
 //=====================　object start ====================================
-
-//=====================　object end ====================================
-
-int main() {
+void main_class();
+void main_class() {
     Student student{(std::string) "Student"};
     student.printInfo();
     const Teacher teacher{(std::string) "A"};
     teacher.printTeacherInfo();
+}
+//=====================　object end ====================================
+
+int main() {
     return 0;
 }
+
 
