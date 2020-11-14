@@ -18,7 +18,6 @@ public:
     PrintTool<T>(std::string name, T &t):m_name{name},m_t{t}{};
     void printInfo();
     static void print();
-    friend void print1(const T &t);
 };
 
 template <class T> inline void PrintTool<T>::printInfo(){

@@ -35,14 +35,14 @@ void main_pointer() {
 //=====================　pointer end ====================================
 
 //=====================　reference start  ====================================
-void printNonConstantReferenceInfo();
-void printConstantReferenceInfo();
+void printNonConstantLeftValueReferenceInfo();
+void printConstantLeftValueReferenceInfo();
 void main_reference();
 
 
 void main_reference() {
-    printNonConstantReferenceInfo();
-    printConstantReferenceInfo();
+    printNonConstantLeftValueReferenceInfo();
+    printConstantLeftValueReferenceInfo();
 }
 //=====================　reference end ====================================
 
@@ -57,6 +57,7 @@ void main_class() {
     tool.printInfo();
     PrintTool<Student>::print();
     print1(std::move("1234"));
+
 }
 //=====================　object end ====================================
 
