@@ -1,6 +1,7 @@
 #include <iostream>
 #include "src/object/Object.h"
 #include "src/object/Static.h"
+#include "src/reference/UniversalReference.cpp"
 
 //=====================　Linkage start ====================================
 //一个方法可以有多个声明的地方; 此处声明　可以链接到ExternalLinkage.cpp文件中对应的方法
@@ -48,6 +49,9 @@ void main_reference() {
 
 //=====================　object start ====================================
 void main_class();
+
+
+
 void main_class() {
     Student student{(std::string) "Student"};
     student.printInfo();
@@ -61,9 +65,29 @@ void main_class() {
 }
 //=====================　object end ====================================
 
+//=====================　 reference (right) start ====================================
+void main_right_value_reference();
+void main_right_value_reference() {
+    int value{3};
+    int& value_ref{value};
+    int&& _right_value_ref{3};
+
+    universalReference(3);
+    universalReference(value);
+    universalReference(value_ref);
+    universalReference(_right_value_ref);
+
+    std::vector<int>container;
+    container.push_back(3);
+    rightValueReference1(std::move(container));
+}
+//=====================　reference (right)end ====================================
 int main() {
-    main_class();
+    main_right_value_reference();
+
     return 0;
 }
+
+
 
 
