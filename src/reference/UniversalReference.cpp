@@ -5,31 +5,38 @@
 #include <iostream>
 #include <vector>
 
-// universal_reference 和 right_value_reference 看起来很像的
-
 //要实现移动语义（MoveSemantic)必须实现移动构造函数和移动赋值操作符号函数（overload)
-//std::move()将一个左值转换成一个右值
+//std::move()将一个左值转换成一个右值引用
 // 临时表达式的结果是右值例如： std::cout << 7+9 << std::endl
-//
+//右值引用有效的延长了右值的生命周期
 
-
-
-//引用折叠 所有的右值引用叠加到一个右值引用，是右值引用（左值类型）；其他引用叠加是左值引用
-//这里的T&& 是通用引用（它的类型T是推断而来）
-template <typename T>
-void universalReference(T&& t){
-    if(std::is_same<int, T>::value){
-        std::cout << "int" << std::endl;
-    } else if(std::is_same<int&, T>::value){
-        std::cout << "int&" << std::endl;
-    } else if (std::is_same<int&&, T>::value){
-        std::cout << "int&&" << std::endl;
-    }
-
+//根据参数引用类型进行方法overload
+//调用的时候可以是non-const_left_value，non-const_left_value_reference, non-const_right_value_reference
+void runCode(std::string &value){
+    std::cout << "run code string&" << std::endl;
 }
 
-//此处为右值引用，已经确定是vector了
-template <typename T>
-void rightValueReference1(std::vector<T> && rightValueRef){
-    std::cout << rightValueRef.size() << std::endl;
+void runCode(const std::string &value){
+    std::cout << "run code const string&" << std::endl;
 }
+// 调用的时候可以是right_value("4"); non_const_right_value_ref（getNonConstantValue())
+// runCode(getConstantValue()) 是非法的，getConstantValue()返回的是const_right_value_ref
+void runCode(std::string &&value){
+    std::cout << "run code string&&" << std::endl;
+}
+
+void runCode(const std::string &&value){
+    std::cout << "run code const string&&" << std::endl;
+}
+
+const std::string getConstantValue(){
+    return "1";
+}
+std::string getNonConstantValue(){
+    return "1";
+}
+
+
+
+
+
