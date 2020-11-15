@@ -95,6 +95,7 @@ void main_right_value_reference() {
     senorForward(_right_value_ref);     //右值引用+未指明右值引用->左值引用
     senorForward(const_value);          //常量左值+未指明右值引用-> 常量左值引用
     senorForward(getConstantValue());   //常量右值引用+未指明右值引用 ->常量右值引用
+    senorForward(getNonConstantValue());   //右值+未指明右值引用 ->右值引用
 }
 //=====================　reference (right)end ====================================
 int main() {

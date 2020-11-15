@@ -21,7 +21,7 @@ void runCode(const std::string &&value);
 
 //返回一个const-right_value_ref
 const std::string getConstantValue();
-//返回一个non-const_right_value_ref
+//返回一个non-const_right_value
 std::string getNonConstantValue();
 
 template <typename T>
