@@ -22,7 +22,7 @@ void printNonConstantLeftValueReferenceInfo() {
     int&& right_value_ref{8};//non-const right_value_ref
 
     //non-const left_value_ref 可以使用non-const left_value;non-const left_value_ref;non-const right_value_ref初始化
-    //但不能被right_value，const left_value,const left_value_ref
+    //但不能被right_value，const left_value,const left_value_ref ；const_right_value_ref;
     int &valueRef{value};
     int &valueRef2{value_ref};
     int &valueRef3{right_value_ref};

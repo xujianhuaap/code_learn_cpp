@@ -23,6 +23,10 @@ void runCode(const std::string &&value);
 const std::string getConstantValue();
 //返回一个non-const_right_value
 std::string getNonConstantValue();
+// 返回值为引用的时候，方法结束的时候所指向的变量应该继续存在
+// 当方法的形参为引用的时候，可以作为返回值
+// 当方法的形参为引用或者地址类型的对象的时候，可以返回该对象的引用类型的成员变量
+std::string& getNonConstantValueRef();
 
 template <typename T>
 void senorForward(T&& t);

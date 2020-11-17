@@ -35,6 +35,11 @@ const std::string getConstantValue(){
 std::string getNonConstantValue(){
     return "1";
 }
+std::string& getNonConstantValueRef(){
+    //这样实现是不对的 该返回值的引用不能指向方法内局部变量
+    std::string value("123");
+    return value;
+};
 
 
 
