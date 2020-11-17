@@ -6,11 +6,12 @@
 // 表达式有两个属性 type 和 value(左值类型，右值类型）
 
 //valueRef 可以看成是value的别名
-//l-value vs r-value ;l-value 是包含内存地址的变量，赋值符号左边必须是l-value; 不是l-value就是r-value;
+//l-value vs r-value ;l-value 是包含内存地址的变量，可以在赋值符号左边的是l-value; 不是l-value就是r-value;
 //引用必须被初始化，引用不能二次赋值（但可以对该引用下存储的值改变）
 //引用经常用作方法的参数
 //引用比指针更安全，尽量使用引用代替指针
-//如果l-value 是non-const reference  ,那么r-value必须是non-const
+
+//右值引用只能由右值初始化
 void printNonConstantLeftValueReferenceInfo() {
     int value{7};//non-const left-value
     const int const_value{8};//const left-value

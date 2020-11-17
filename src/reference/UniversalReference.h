@@ -19,9 +19,9 @@ void runCode(const std::string &value);
 void runCode(std::string &&value);
 void runCode(const std::string &&value);
 
-//返回一个const-right_value_ref
+//返回一个right_value
 const std::string getConstantValue();
-//返回一个non-const_right_value
+//返回一个right_value
 std::string getNonConstantValue();
 // 返回值为引用的时候，方法结束的时候所指向的变量应该继续存在
 // 当方法的形参为引用的时候，可以作为返回值

@@ -72,10 +72,11 @@ void main_right_value_reference() {
     std::string value{"3"};//左值 左值类型
     const std::string const_value{"3"};//常量左值 左值类型
     std::string& value_ref{value};// 左值引用 左值类型
-    std::string& const_value_ref{value};// 常量左值引用 左值类型
+    const std::string& const_value_ref{value};// 常量左值引用 左值类型
     std::string&& _right_value_ref{3};// 右值引用 左值类型
+    const std::string&& const_right_value_ref{3};// 右值引用 左值类型
 
-
+//    std::string&& value_ref1{const_value_ref};
 
     myForward(std::string("3"));
     myForward(getNonConstantValue());
