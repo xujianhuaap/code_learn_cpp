@@ -1,13 +1,17 @@
 #include <iostream>
+#include <cstring>
 #include "src/object/Object.h"
 #include "src/object/Static.h"
 #include "src/reference/UniversalReference.h"
+#include "src/strings/Strings.h"
+#include "src/array/array.h"
+#include "src/linkage/Linkage.h"
 
 
 //=====================　Linkage start ====================================
 //一个方法可以有多个声明的地方; 此处声明　可以链接到ExternalLinkage.cpp文件中对应的方法
 //ps: CMakeLists.txt 文件中必须通过add_executable(...)将ExternalLinkage.cpp 加入到编译文件的集合中
-void sayHi();//pre-declare function
+
 void main_linkage();
 
 extern const double Pai;//pre-declare constant
@@ -99,8 +103,22 @@ void main_right_value_reference() {
     senorForward(getNonConstantValue());   //右值+未指明右值引用 ->右值引用
 }
 //=====================　reference (right)end ====================================
+
+//============= strings ===================
+void main_strings();
+void main_strings(){
+   memsetCase();
+}
+//================ strings end =============
+
+//======= array ======
+void main_array();
+void main_array(){
+    newArrayCase();
+}
+//====== array end ====
 int main() {
-    main_pointer();
+  main_strings();
 
     return 0;
 }
