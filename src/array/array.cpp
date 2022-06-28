@@ -12,12 +12,12 @@ void printArrayInfo(){
 
 }
 
-class Info{
+class PointerInfo{
 public:
-    Info(std::string name){
+    PointerInfo(std::string name){
         this->name = name.c_str();
     }
-    Info(){
+    PointerInfo(){
       this->name ="default";
     }
     const char* name;
@@ -25,6 +25,6 @@ public:
 };
 void newArrayCase(){
     //作为一个数组首个元素的地址
-    Info* info = new Info[3]();
+    PointerInfo* info = new PointerInfo[3]();
     printf("%s",info[1].name);
 }

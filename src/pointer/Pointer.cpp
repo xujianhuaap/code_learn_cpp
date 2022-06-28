@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include "Pointer.h"
 
 int *iptr{};//declare a pointer,point to int value; * near the name
 int* getAddress(); // function 返回一个指针, point to int value; * near the type

@@ -6,6 +6,7 @@
 #include "src/strings/Strings.h"
 #include "src/array/array.h"
 #include "src/linkage/Linkage.h"
+#include "src/pointer/Pointer.h"
 
 
 //=====================　Linkage start ====================================
@@ -37,6 +38,15 @@ void main_pointer() {
     printPointerInfo(nullPtrAfterCpp11);
     double ages[]{1,2,3};
     printArrayInfo(ages);
+}
+void main_pointer_1();
+void main_pointer_1(){
+    PointerInfo * info = new PointerInfo("xu");
+//    二级指针取值 只需要一个*就可以
+    PointerInfo ** info_p = &info;
+    std::cout << (int *)info_p << std::endl;
+    std::cout << (* info_p)->m_name << std::endl;
+    std::cout << (* info_p)->m_name << std::endl;
 }
 //=====================　pointer end ====================================
 
@@ -118,7 +128,7 @@ void main_array(){
 }
 //====== array end ====
 int main() {
-  main_strings();
+  main_pointer_1();
 
     return 0;
 }
